@@ -1,6 +1,4 @@
-body{
-    scroll-behavior: smooth;
-}
+@import url(./adver-8.css);
 .header{
     width: calc(100% + 15px);
     height: 100px;
@@ -387,7 +385,144 @@ body{
     font-size: 23px;
     color: #706161;
 }
+.section-7{
+    background-color: #EFEFEF;
+}
+.adver-6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 60px;
+}
+.adver-6__header{
+    /* border: 1px solid red; */
+    width: fit-content;
+    font-size: 25px;
+    color: #BBBBBB;
+}
+.adver-6__title{
+    /* border: 1px solid red; */
+    width: fit-content;
+    font-size: 50px;
+    font-weight: bold;
+    word-break: break-all;
+    
+}
+.adver-6__parent{
+    padding-inline: 20px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.adver-6__consumer{
+    justify-content: space-around;
+}
+.adver-6__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 50px;
+    background-color: white;
+    border-radius: 15px;
+}
+.adver-6__img{
+    width: 55%;
+    border-radius: 50%;
+}
+.adver-6__name{
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* border: 1px solid red; */
+    /* width: 100%; */
+    text-align: center;
+    margin-top: 10px;
+}
+.adver-6__job{
+    color: #706161;
+    /* border: 1px solid rebeccapurple; */
+}
+.adver-6__contact{
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 0;
+    width: fit-content;
+}
+.adver-6__social{
+    display: inline-block;
+    padding: 15px;
+    background-color: #EFEFEF;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /* border: 1px solid red; */
+}
+.section-8{
+    background-color: #EFEFEF;
+    padding-block: 60px;
+}
+.adver-7{
+    background-image: url('https://mobirise.com/extensions/softwarem4/software-app/assets/images/background3.jpg');
+    width: 100%;
+    aspect-ratio: 16 / 8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+
+}
+.content__left{
+    width: 80%;
+    /* border: 1px solid red; */
+}
+.adver-7__content{
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    position: absolute;
+    bottom: -8%;
+    left: 9%;
+    /* border: 1px solid red; */
+    justify-content: space-around;
+}
+.pre-view{
+    color: white;
+    background-color: #1B2026;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
+    width: 17%;
+    border-radius: 5px;
+}
+.adver-7__t1{
+    color: #BBBBBB;
+    word-break: break-all;
+    /* border: 1px solid red; */
+}
+.adver-7__t2{
+    font-weight: bold;
+    font-size: 1.03rem; word-break: break-all;
+    /* border: 1px solid red; */
+}
 @media screen and (max-width : 991.98px) {
+    .pre-view{
+        width: 10rem;
+    }
+    .section-8{
+        padding-bottom: 250px;
+    }
+    .adver-7__content{
+        flex-wrap: wrap;
+        position: relative;
+        bottom: -80%;
+        justify-content: space-between;
+    }
+    .content__left{
+        margin-bottom: 10px;
+        width: 100%;
+    }
     .header_social{
         display: none;
     }
@@ -439,6 +574,15 @@ body{
     }
 }
 @media screen and (max-width : 767.98px) {
+    .section-8{
+        padding-bottom: 420px;
+    }
+    .adver-7__content{
+        flex-wrap: wrap;
+        position: relative;
+        bottom: -150%;
+        justify-content: space-between;
+    }
     .content__main{
         align-items: center;
     }
@@ -502,6 +646,15 @@ body{
     }
 }
 @media screen and (max-width : 479.98px) {
+    .section-8{
+        padding-bottom: 450px;
+    }
+    .adver-7__content{
+        flex-wrap: wrap;
+        position: relative;
+        bottom: -200%;
+        justify-content: space-between;
+    }
     .content__main .content__main__btn{
         flex-direction: column;
     }
@@ -575,8 +728,20 @@ body{
     .adver-5__img{
         font-size: 18px;
     }
+    .adver-6__title{
+        font-size: 2.5rem;
+    }
 }
 @media screen and (max-width : 319.98px) {
+    .section-8{
+        padding-bottom: 550px;
+    }
+    .adver-7__content{
+        flex-wrap: wrap;
+        position: relative;
+        bottom: -400%;
+        justify-content: space-between;
+    }
     .content__main .content__desc{
         font-size: 14px;
         text-align: center;
@@ -638,8 +803,20 @@ body{
     .adver-5__img{
         font-size: 15px;
     }
+    .adver-6__title{
+        font-size: 1.8rem;
+    }
 }
 @media screen and (max-width : 286.98px){
+    .section-8{
+        padding-bottom: 550px;
+    }
+    .adver-7__content{
+        flex-wrap: wrap;
+        position: relative;
+        bottom: -480%;
+        justify-content: space-between;
+    }
     .header{
         display: flex;
         flex-wrap: wrap;
@@ -717,8 +894,36 @@ body{
     .adver-5__img{
         font-size: 12px;
     }
+    .adver-6__contact{
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 0;
+        width: fit-content;
+    }
+    .adver-6__social{
+        display: inline-block;
+        padding: 8px;
+        background-color: #EFEFEF;
+        font-size: 1.3rem;
+        /* border: 1px solid red; */
+    }
 }
-@media screen and (max-width : 231.98px){
+@media screen and (max-width : 235.98px){
+    .section-8{
+        padding-bottom: 550px;
+    }
+    .adver-7__content{
+        flex-wrap: wrap;
+        position: relative;
+        bottom: -660%;
+        justify-content: space-between;
+    }
+    .adver-7__content{
+        flex-wrap: wrap;
+        position: relative;
+        bottom: -350%;
+        justify-content: space-between;
+    }
     .adver-2__header{
         color: #BBBBBB;
         font-size: 0.5rem;
@@ -743,4 +948,30 @@ body{
     .adver-5__img{
         font-size: 10px;
     }
+    .adver-6__header{
+        font-size: 1rem;
+    }
+    .adver-6__title{
+        font-size: 1.3rem;
+    }
+    .adver-6__name{
+        font-size: 1rem;
+    }
+    .adver-6__job{
+        font-size: 0.7rem;
+    }
+    .adver-6__contact{
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 0;
+        width: fit-content;
+    }
+    .adver-6__social{
+        display: inline-block;
+        padding: 8px;
+        background-color: #EFEFEF;
+        font-size: 1rem;
+        /* border: 1px solid red; */
+    }
+    
 }
