@@ -1,5 +1,9 @@
 @import url(./adver-8.css);
-.header{
+@import url(./adver-9.css);
+@import url(./form.css);
+@import url(./map.css);
+@import url(./header.css);
+/* .header{
     width: calc(100% + 15px);
     height: 100px;
     background-color: #EFEFEF;
@@ -71,7 +75,7 @@
     font-size:32px;
     display: none;
     margin-bottom: 10px;
-}
+} */
 .section-1{
     width: 100%;
     height: 570px;
@@ -505,6 +509,14 @@
     font-weight: bold;
     font-size: 1.03rem; word-break: break-all;
     /* border: 1px solid red; */
+}
+.section-13{
+    background-color: #14191E;
+    text-align: center;
+    padding-block: 20px;
+    color: white;
+    font-size: 21px;
+    margin: 0;
 }
 @media screen and (max-width : 991.98px) {
     .pre-view{

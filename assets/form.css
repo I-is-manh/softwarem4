@@ -1,0 +1,83 @@
+.section-11{
+    background-color: white;
+    padding-block: 50px ;
+}
+.template__form{
+    background-color: #DCE8EB;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.form__inp{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    padding-inline: 10px;
+    padding-block: 8px  ;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.btn__form{
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding-block: 10px;
+    border-radius: 10px;
+    padding-inline: 1rem;
+    cursor: pointer;
+    user-select: none;
+}
+.form__info{
+    /* border: 1px solid red; */
+    /* justify-content: space-between; */
+    margin: 0;
+    
+}
+.form__header{
+    color: #777777;
+    font-size: 20px;
+    font-weight: 500;
+}
+.description{
+    width: 100%;
+    padding: 1.3rem;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-block: 10px;
+}
+.form__title{
+    font-weight: bold;
+    font-size: 50px;
+}
+@media screen and (max-width : 991.98px) {
+}
+@media screen and (max-width : 767.98px) {
+}
+@media screen and (max-width : 479.98px) {
+    .form__header{
+        font-size: 17px;
+    }
+    
+    .form__title{
+        font-weight: bold;
+        font-size: 40px;
+    }
+}
+@media screen and (max-width : 319.98px) {
+}
+@media screen and (max-width : 286.98px){
+
+}
+@media screen and (max-width : 235.98px){
+    .form__header{
+        font-size: 14px;
+    }
+    
+    .form__title{
+        font-weight: bold;
+        font-size: 30px;
+    }
+}
